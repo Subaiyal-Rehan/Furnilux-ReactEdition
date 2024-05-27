@@ -1,0 +1,37 @@
+.heroContainer {
+    background-image: url("./Images/hero-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.heroTextContainer h1 {
+    max-width: 620px;
+}
+
+.heroTextContainer p {
+    max-width: 500px;
+}
+
+.heroBoxes {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(20px);
+}
+
+.heroBox {
+    box-shadow: 0px 2px 7px 0px #000000a1;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.heroBox:hover {
+    background-color: #dbf2ea !important;
+}
+
+@media screen and (max-width: 767px) {
+    .heroBoxes {
+        display: none !important;
+    }
+}

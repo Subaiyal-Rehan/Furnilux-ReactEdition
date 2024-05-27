@@ -1,0 +1,19 @@
+.btn-green {
+    background-color: #123123 !important;
+}
+
+.btn-green:hover {
+    background-color: #1c4c36 !important;
+}
+
+.btn-outline-green {
+    border:2px solid #123123 !important;
+    color: #123123 !important;
+    background-color: transparent;
+}
+
+.btn-outline-green:hover {
+    border:2px solid transparent !important;
+    color: white !important;
+    background-color: #123123;
+}

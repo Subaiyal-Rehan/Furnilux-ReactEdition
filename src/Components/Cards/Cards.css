@@ -1,0 +1,38 @@
+.CardOut {
+    max-height: 510px !important;
+}
+
+.LivingCard {
+    height: 100%;
+    box-shadow: 1px 2px 4px 1px #0000008a;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+.LivingCardText {
+    transition: all 0.2s ease-in-out;
+}
+
+.LivingCard:hover .LivingCardText,
+.LivingCard:hover {
+    background-color: #dbf2ea !important;
+}
+
+.LivingCardImage {
+    width: 100%;
+    height: 76%;
+    overflow: hidden !important;
+}
+
+.LivingCardImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+
+.LivingCardColors span {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
